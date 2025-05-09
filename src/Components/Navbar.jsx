@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
+import logo from '../assets/ChatGPT Image Apr 10, 2025, 05_37_58 PM.png'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,7 +34,7 @@ export default function Navbar() {
           >
            
 
-            <img src="src\assets\ChatGPT Image Apr 10, 2025, 05_37_58 PM.png" alt="" />
+            <img src={logo} alt="" />
           </motion.div>
 
           {/* Desktop Nav */}
